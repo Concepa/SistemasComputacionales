@@ -1,0 +1,265 @@
+
+.header{
+    background-image: url('./Images/Banner.jpg');
+    background-size: cover;
+    height: 225px;
+    color:white;
+    padding-top: 50px;
+    margin: 0%;
+}
+.header h2{
+    text-align: center;
+    font-family: Helvetica,Arial, sans-serif;
+}
+.header h1{
+    text-align: center;
+}
+.rvoe{
+    text-align: right;
+    margin: 0%;
+}
+.objetivos{
+    background-color: white;
+}
+.objetivos h2{
+    margin: 3%;
+    margin-top: 0%;
+}
+.objetivos .texto{
+    width: 70%;
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 3%;
+    text-align: justify;
+    line-height: 1.4;
+    margin-top: 40px;
+}
+.objetivos .contenido{
+    display: flex;
+    justify-content: space-between;
+}
+.objetivos h2{
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.imagen1{
+    float: right;
+    margin-left: 20px;
+    width: 65%;
+    height: 280px;
+    margin-right: 50px;
+}
+
+body{
+    background-color: rgb(222, 231, 233);
+}
+body, .objetivos{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.perfilEgreso{
+    background-color: #092746;
+    background-size: cover;
+    height: 60vh;
+    align-items: center;
+    align-content: center;
+    margin: 0%;
+}
+
+.perfilEgreso p{
+    text-align: justify;
+    width: 95%;
+    margin: 3%;
+    line-height: 1.4;
+    color: white;
+    margin-left: 40px;
+    margin-right: 5%;
+
+}
+.perfilEgreso ul{
+    margin-bottom: 20px;
+}
+.texto-perfil{
+    text-align: center;
+    color: white;
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 4%;
+    text-align: justify;
+    line-height: 1.4;
+}
+.texto-perfil h2{
+    text-align: center;
+    
+}
+.perfilEgreso li{
+    color: white;
+    margin-left: 3%;
+    line-height: 1.4;
+    
+}
+.conocimientosAdq{
+    background-color: white;
+}
+.conocimientosAdq .contenido{
+    display: flex;
+    justify-content: space-between;
+}
+.conocimientosAdq .imagen2{
+    float: right;
+    margin-left: 50px;
+    width: 65%;
+    height: 280px;
+    margin-right: 50px;
+    align-items: center;
+    margin-top: 30px;
+}
+.conocimientosAdq text, ul{
+    width: 60%;
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 4%;
+    text-align: justify;
+    line-height: 1.4;
+}
+.conocimientosAdq h2{
+    text-align: center;
+}
+.habilidades{
+    background-color: rgb(23, 23, 75);
+    color: #ddd;
+}
+.habilidades .contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.habilidades .texto{
+    width: 90%;
+    padding: 2%;
+    box-sizing: border-box;
+    margin-left: 12%;
+    text-align: justify;
+    line-height: 1.4;
+    
+}
+
+.video{
+    margin-right: 50px;
+    width: 90%;
+}
+
+
+.boton-plan{
+    background-color: #092746;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 4%;
+    
+}
+.plan{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+.datos{
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75vh;
+}
+.iesit{
+    float: right;
+    margin-left: 20px;
+    width: 55%;
+    height: 280px;
+    margin-right: 50px;
+}
+
+.grupo-dato{
+    margin-bottom: 15px;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.cuestionario button{
+    width: 100%;
+    padding: 10px;
+    background-color: #092746;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cuestionario button:hover{
+    background-color: #0056b3;
+}
+footer {
+    background-color: #0e3763;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin:3px;
+    height: 30px;
+}
+.contenedor-circulos {
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    
+
+}
+  
+.circulo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+  
+.circulo img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+  
+.circulo:nth-child(1) { top: 20px; left: 20px; }
+.circulo:nth-child(2) { top: 20px; left: 120px; }
+.circulo:nth-child(3) { top: 20px; left: 220px; }
+.circulo:nth-child(4) { top: 20px; left: 320px; }
+.circulo:nth-child(5) { top: 20px; left: 420px; }
+.circulo:nth-child(6) { top: 20px; left: 520px; }
+.circulo:nth-child(7) { top: 20px; left: 620px; }
+.circulo:nth-child(8) { top: 20px; left: 720px; }
+.circulo:nth-child(9) { top: 20px; left: 820px; }
+
+  
+
